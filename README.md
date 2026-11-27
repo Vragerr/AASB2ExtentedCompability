@@ -26,6 +26,6 @@ Use Mod Settings → AASB2 Extended Compatibility → Diagnostics. Reports are w
 
 ## Updates and credits
 
-See the [changelog](CHANGELOG.md) and the Releases tab for version-specific changes, known issues and downloads.
+See the Releases tab for version-specific downloads.
 
 Developed by **Vragerr** .
