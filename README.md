@@ -1,25 +1,16 @@
 # AASB2 Extended Compatibility
 
-Modular compatibility fixes and vertical gameplay extensions for As Above, So Below 2 and RimWorld 1.7.
+Build and manage a multi-floor colony in RimWorld with compatibility fixes and vertical building options for **As Above, So Below 2**.
+# DISCLAIMER 
+Mod created by using ai.
+## What the mod adds
 
-## Stable scenarios verified in the previous release
-
-- Glass floors show the terrain and objects below, including dynamic objects and colored lighting.
-- Light transferred through glass is available to gameplay checks. Daylight and plant growth have been tested on a colony map.
-- Colonists can use Skipdoors for ordinary movement and work orders across floors.
-
-## Experimental in 0.14.0
-
-- One-hop Skipdoor routing for non-suspendable hauling jobs through Skiptech's native path splicer. The integration consults Skiptech's animal access rules. Mounted access checks are conditional on Giddy-up.
-- A vertical ventilation grate exchanges room heat through constructed roofs between adjacent above-ground floors. Open or close it like a standard vent.
-- Vertical riser protection reserves pipe cells for the riser's network controls.
-- Endless Horizon shares the surface landscape between above-ground floors. The updated surface pass uses the unclipped view and keeps the original cutoffs if the horizon cannot draw.
-- A setting limits natural anima tree spawns to 1–50 per map. A separate option keeps natural spawning on the main floor. These options require Royalty.
-- Additional optional support includes Dubs Skylights and Factory vertical cargo ports. A selectable temporary safeguard skips pawn silhouettes whose graphics fail to initialize.
-
-## Known limitations
-
-0.14.0 gameplay verification is pending. Non-suspendable hauling across multiple consecutive Skipdoors, mounted stairs, terrain rendering in mountains, and Horizon lighting and seams need further work or verification. See the [release notes](RELEASE_NOTES_0.14.0.md).
+- **Glass floors and skylights.** See the terrain, pawns, objects and colored light on the floor below. A separate gameplay lighting option lets daylight reach plants through glass. Dubs Skylights is supported when installed.
+- **Vertical ventilation.** An openable grate exchanges heat between rooms on neighboring above-ground floors without using power.
+- **Pipes and cargo between floors.** Vertical risers reserve their pipe connections and link compatible Dubs networks. Factory vertical cargo ports transfer items between floors when Vanilla Furniture Expanded - Factory is installed.
+- **Anima tree settings.** With Royalty, limit natural spawns to 1–50 per map or keep natural spawns on the main floor.
+- **Skipdoors.** Eligible movement orders and work with a single target can use Skipdoors across floors. The adapter follows Skiptech's access rules. Hauling and rescue use the route handling provided by the installed mods.
+- **Experimental exterior views.** Endless Horizon can show the landscape around above-ground floors. Upper floors share the surface relief.
 
 ## Dependencies and installation
 
@@ -29,10 +20,12 @@ Extract the ZIP into RimWorld's `Mods` folder. Keep the archive's folder name `m
 
 Options are in Mod Settings. The glass view and gameplay lighting are independent. Horizon changes require a restart. Disabled integrations retain their definitions and existing buildings. Back up your save before removing the mod or changing dependencies.
 
-## Diagnostics and development
+## Reporting issues
 
 Use Mod Settings → AASB2 Extended Compatibility → Diagnostics. Reports are written under `Diagnostics/AASB2Extended/` in the RimWorld user data folder. In a bug report, include the floors, related mods, versions, steps and relevant report excerpts. Review them for personal data first.
 
-[Build and tests](BUILD.ru.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
+## Updates and credits
 
-Developed by **Vragerr**. Licensing is pending the author's decision. [Third-party notices](THIRD_PARTY_NOTICES.md).
+See the [changelog](CHANGELOG.md) and the Releases tab for version-specific changes, known issues and downloads.
+
+Developed by **Vragerr** .
