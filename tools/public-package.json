@@ -1,0 +1,26 @@
+{
+  "repository": "AASB2ExtendedCompatibility",
+  "package_id": "vragerr.aasb2extendedcompatibility",
+  "version": "0.14.0",
+  "mod_path": "mod",
+  "folder": "mod",
+  "files": [
+    "1.7/Assemblies/AASB2ExtendedCompatibility.dll",
+    "1.7/Factory/Defs/VerticalConveyorPorts.xml",
+    "1.7/Patches/DBH-CarrierPlacement.xml",
+    "1.7/Patches/GlassPrototype.xml",
+    "1.7/Patches/VerticalVent.xml",
+    "About/About.xml",
+    "Languages/English/Keyed/Settings.xml",
+    "Languages/English/Keyed/Status.xml",
+    "Languages/Russian/DefInjected/TerrainDef/GlassPrototype.xml",
+    "Languages/Russian/DefInjected/ThingDef/VerticalConveyorPorts.xml",
+    "Languages/Russian/DefInjected/ThingDef/VerticalVent.xml",
+    "Languages/Russian/Keyed/Settings.xml",
+    "Languages/Russian/Keyed/Status.xml",
+    "LoadFolders.xml",
+    "Textures/AASBExt/GlassDeck.png",
+    "Textures/AASBExt/GlassSkylight.png",
+    "Textures/AASBExt/VerticalVent.png"
+  ]
+}

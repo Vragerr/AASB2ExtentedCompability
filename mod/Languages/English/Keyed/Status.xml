@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <AASBExt.Status.Header>On-demand diagnostics. DBH carrier placement guard is active when its dependencies are available.</AASBExt.Status.Header>
+  <AASBExt.Status.Active>{0}: active dependency</AASBExt.Status.Active>
+  <AASBExt.Status.Inactive>{0}: inactive</AASBExt.Status.Inactive>
+  <AASBExt.Status.TypeMissing>{0}: active, type unavailable ({1})</AASBExt.Status.TypeMissing>
+  <AASBExt.Status.UtilitySnapshot>Log utility snapshot</AASBExt.Status.UtilitySnapshot>
+  <AASBExt.Status.UtilityCell>Click one utility cell</AASBExt.Status.UtilityCell>
+  <AASBExt.Placement.DbhCarrier>This cell already contains a vertical plumbing connection. Connect a pipe to an adjacent cell.</AASBExt.Placement.DbhCarrier>
+  <AASBExt.Floor.Enable>Experimental: enable opaque roof deck placement</AASBExt.Floor.Enable>
+  <AASBExt.Floor.Disabled>Enable the experimental roof deck in AASB2 Extended settings.</AASBExt.Floor.Disabled>
+  <AASBExt.Floor.RequiresRoof>The experimental deck requires an existing AASB2 rooftop.</AASBExt.Floor.RequiresRoof>
+  <AASBExt.Floor.Visual>Experimental: show the lower floor through glass (reload map)</AASBExt.Floor.Visual>
+  <AASBExt.Factory.Enable>Allow construction of experimental vertical Factory ports</AASBExt.Factory.Enable>
+  <AASBExt.Factory.Release>Return held conveyor items</AASBExt.Factory.Release>
+  <AASBExt.Factory.Retained>Some conveyor items could not be placed. Use the return button in the extension settings.</AASBExt.Factory.Retained>
+  <AASBExt.Factory.Unlinked>Vertical port: no matching partner</AASBExt.Factory.Unlinked>
+  <AASBExt.Factory.NoSupport>Both port cells need support on adjacent floors</AASBExt.Factory.NoSupport>
+  <AASBExt.Factory.NoPower>Vertical transfer paused: no power</AASBExt.Factory.NoPower>
+  <AASBExt.Factory.Full>Vertical port: output occupied</AASBExt.Factory.Full>
+  <AASBExt.Factory.Moving>Vertical port: transferring cargo</AASBExt.Factory.Moving>
+  <AASBExt.Factory.Linked>Vertical port: connected</AASBExt.Factory.Linked>
+  <AASBExt.Factory.ShowPartner>Show matching vertical port</AASBExt.Factory.ShowPartner>
+  <AASBExt.Factory.Disabled>Experimental vertical ports are unavailable or disabled</AASBExt.Factory.Disabled>
+  <AASBExt.Factory.Destination>Level {0}, cell ({1}, {2})</AASBExt.Factory.Destination>
+  <AASBExt.Factory.Section>Shaft section</AASBExt.Factory.Section>
+  <AASBExt.Factory.Inputs>Configured inputs: {0}</AASBExt.Factory.Inputs>
+  <AASBExt.Factory.WaitDestination>Waiting for a destination</AASBExt.Factory.WaitDestination>
+  <AASBExt.Factory.RouteBroken>Shaft route is interrupted</AASBExt.Factory.RouteBroken>
+  <AASBExt.Factory.Progress>Transfer in progress, {0} ticks left</AASBExt.Factory.Progress>
+  <AASBExt.Factory.Cargo>Cargo: {0}</AASBExt.Factory.Cargo>
+  <AASBExt.Factory.Configure>Configure destination</AASBExt.Factory.Configure>
+  <AASBExt.Factory.ClearDestination>Clear destination</AASBExt.Factory.ClearDestination>
+  <AASBExt.Factory.Occupied>This shaft cell already contains a conveyor device</AASBExt.Factory.Occupied>
+  <AASBExt.Factory.BuildLinked>Build linked port</AASBExt.Factory.BuildLinked>
+  <AASBExt.Factory.NoOtherFloor>No other playable floor at these coordinates</AASBExt.Factory.NoOtherFloor>
+  <AASBExt.Factory.BuildUnavailable>Research or port placement unavailable</AASBExt.Factory.BuildUnavailable>
+  <AASBExt.Factory.UseHighlightedCell>Place on the highlighted shaft cell</AASBExt.Factory.UseHighlightedCell>
+  <AASBExt.Factory.Mode>Routing mode: {0}</AASBExt.Factory.Mode>
+  <AASBExt.Factory.Mode.Fixed>Fixed destination</AASBExt.Factory.Mode.Fixed>
+  <AASBExt.Factory.Mode.Priority>Priority</AASBExt.Factory.Mode.Priority>
+  <AASBExt.Factory.Mode.RoundRobin>Round-robin</AASBExt.Factory.Mode.RoundRobin>
+  <AASBExt.Factory.Mode.FirstAvailable>First available</AASBExt.Factory.Mode.FirstAvailable>
+  <AASBExt.Factory.AddRoute>Assign: {0}</AASBExt.Factory.AddRoute>
+  <AASBExt.Factory.EditRoute>{0}. {1}</AASBExt.Factory.EditRoute>
+  <AASBExt.Factory.MissingOutput>Missing output #{0}</AASBExt.Factory.MissingOutput>
+  <AASBExt.Factory.RemoveRoute>Remove destination</AASBExt.Factory.RemoveRoute>
+  <AASBExt.Factory.Filter>Edit item filter</AASBExt.Factory.Filter>
+  <AASBExt.Factory.ClearFilter>Clear item filter</AASBExt.Factory.ClearFilter>
+  <AASBExt.Factory.RaisePriority>Move up in routing order</AASBExt.Factory.RaisePriority>
+  <AASBExt.Factory.OutputGone>Assigned output is missing.</AASBExt.Factory.OutputGone>
+  <AASBExt.Factory.FilterRejected>Destination filter rejects the cargo.</AASBExt.Factory.FilterRejected>
+  <AASBExt.Status.Missing>{0}: optional mod is missing.</AASBExt.Status.Missing>
+  <AASBExt.Status.Adapter>{0}: experimental adapter active.</AASBExt.Status.Adapter>
+  <AASBExt.Status.Contract>{0}: incompatible technical contract.</AASBExt.Status.Contract>
+  <AASBExt.Status.DeckMissing>Glass deck: missing a supported glass or recipe definition.</AASBExt.Status.DeckMissing>
+  <AASBExt.Status.DeckAvailable>Glass deck: construction definition available.</AASBExt.Status.DeckAvailable>
+  <AASBExt.Factory.RouteUnsupported>A shaft segment has no support.</AASBExt.Factory.RouteUnsupported>
+  <AASBExt.Factory.UnusedOutput>No connected vertical inputs.</AASBExt.Factory.UnusedOutput>
+</LanguageData>

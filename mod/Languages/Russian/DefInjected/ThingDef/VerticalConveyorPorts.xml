@@ -1,0 +1,16 @@
+<LanguageData>
+  <AASBExt_VerticalConveyorEntranceUp.label>вертикальный конвейер, вход (вверх)</AASBExt_VerticalConveyorEntranceUp.label>
+  <AASBExt_VerticalConveyorEntranceUp.description>Порт фабричной конвейерной линии. Разместите ответный порт с тем же обозначением направления в той же локальной клетке соседнего этажа.</AASBExt_VerticalConveyorEntranceUp.description>
+  <AASBExt_VerticalConveyorEntranceDown.label>вертикальный конвейер, вход (вниз)</AASBExt_VerticalConveyorEntranceDown.label>
+  <AASBExt_VerticalConveyorEntranceDown.description>Порт фабричной конвейерной линии. Разместите ответный порт с тем же обозначением направления в той же локальной клетке соседнего этажа.</AASBExt_VerticalConveyorEntranceDown.description>
+  <AASBExt_VerticalConveyorExitUp.label>вертикальный конвейер, выход (вверх)</AASBExt_VerticalConveyorExitUp.label>
+  <AASBExt_VerticalConveyorExitUp.description>Порт фабричной конвейерной линии. Разместите ответный порт с тем же обозначением направления в той же локальной клетке соседнего этажа.</AASBExt_VerticalConveyorExitUp.description>
+  <AASBExt_VerticalConveyorExitDown.label>вертикальный конвейер, выход (вниз)</AASBExt_VerticalConveyorExitDown.label>
+  <AASBExt_VerticalConveyorExitDown.description>Порт фабричной конвейерной линии. Разместите ответный порт с тем же обозначением направления в той же локальной клетке соседнего этажа.</AASBExt_VerticalConveyorExitDown.description>
+  <AASBExt_VerticalConveyorInput.label>вертикальный конвейерный вход</AASBExt_VerticalConveyorInput.label>
+  <AASBExt_VerticalConveyorInput.description>Принимает груз с линии Factory. Выберите назначение в непрерывной шахте.</AASBExt_VerticalConveyorInput.description>
+  <AASBExt_VerticalConveyorOutput.label>вертикальный конвейерный выход</AASBExt_VerticalConveyorOutput.label>
+  <AASBExt_VerticalConveyorOutput.description>Принимает груз от настроенного входа и выдаёт его в горизонтальную линию Factory.</AASBExt_VerticalConveyorOutput.description>
+  <AASBExt_VerticalConveyorSection.label>вертикальная конвейерная секция</AASBExt_VerticalConveyorSection.label>
+  <AASBExt_VerticalConveyorSection.description>Продолжает шахту через этот этаж без выгрузки груза.</AASBExt_VerticalConveyorSection.description>
+</LanguageData>

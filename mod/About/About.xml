@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+
+  <name>As Above, So Below 2 — Extended Compatibility &amp; Fixes</name>
+
+  <author>Vragerr</author>
+
+  <packageId>vragerr.aasb2extendedcompatibility</packageId>
+
+  <modVersion>0.14.0</modVersion>
+
+  <supportedVersions><li>1.7</li></supportedVersions>
+
+  <description>Standalone compatibility fixes for As Above, So Below 2. Includes on-demand diagnostics, guarded plumbing placement, and optional glass rendering and vertical Factory ports.</description>
+
+  <modDependencies><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li>
+
+    <li>
+
+      <packageId>astryl.asabovesobelow2</packageId>
+
+      <displayName>As Above, So Below 2</displayName>
+
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3776015553</steamWorkshopUrl>
+
+    </li>
+
+  </modDependencies>
+
+  <loadAfter>
+    <li>memegoddess.giddyup</li><li>brrainz.harmony</li><li>astryl.asabovesobelow2</li><li>dubwise.dubsbadhygiene</li><li>dubwise.dubsskylights</li><li>rebuild.cotr.doorsandcorners</li><li>ferny.generallymoreresearch</li><li>vragerr.progressionintegration</li><li>vanillaexpanded.vfefactory</li><li>jongsh.endlesshorizon</li><li>migcorp.skiptech</li></loadAfter>
+
+  <incompatibleWith><li>local.aasb2extendedcompatibility</li></incompatibleWith>
+
+</ModMetaData>
+
+
+
+
+

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <AASBExt.Status.Header>Диагностика по запросу. Защита размещения труб DBH действует при наличии зависимостей.</AASBExt.Status.Header>
+  <AASBExt.Status.Active>{0}: зависимость активна</AASBExt.Status.Active>
+  <AASBExt.Status.Inactive>{0}: не активен</AASBExt.Status.Inactive>
+  <AASBExt.Status.TypeMissing>{0}: активен, тип недоступен ({1})</AASBExt.Status.TypeMissing>
+  <AASBExt.Status.UtilitySnapshot>Записать состояние вертикальных сетей</AASBExt.Status.UtilitySnapshot>
+  <AASBExt.Status.UtilityCell>Нажмите на клетку инженерной сети</AASBExt.Status.UtilityCell>
+  <AASBExt.Placement.DbhCarrier>В этой клетке уже есть вертикальное соединение труб. Проложите трубу в соседней клетке.</AASBExt.Placement.DbhCarrier>
+  <AASBExt.Floor.Enable>Эксперимент: разрешить размещение непрозрачного настила</AASBExt.Floor.Enable>
+  <AASBExt.Floor.Disabled>Разрешите экспериментальный настил в настройках AASB2 Extended.</AASBExt.Floor.Disabled>
+  <AASBExt.Floor.RequiresRoof>Экспериментальному настилу нужна существующая поверхность крыши AASB2.</AASBExt.Floor.RequiresRoof>
+  <AASBExt.Floor.Visual>Эксперимент: показать грунт нижнего этажа через стекло (перезагрузите карту)</AASBExt.Floor.Visual>
+  <AASBExt.Factory.Enable>Разрешить строительство экспериментальных вертикальных портов Factory</AASBExt.Factory.Enable>
+  <AASBExt.Factory.Release>Вернуть сохранённые предметы конвейера</AASBExt.Factory.Release>
+  <AASBExt.Factory.Retained>Часть предметов конвейера не удалось разместить. Нажмите кнопку возврата в настройках расширения.</AASBExt.Factory.Retained>
+  <AASBExt.Factory.Unlinked>Вертикальный порт: нет подходящей пары</AASBExt.Factory.Unlinked>
+  <AASBExt.Factory.NoSupport>Обе клетки пары на соседних этажах должны иметь опору</AASBExt.Factory.NoSupport>
+  <AASBExt.Factory.NoPower>Вертикальная передача приостановлена: нет питания</AASBExt.Factory.NoPower>
+  <AASBExt.Factory.Full>Вертикальный порт: выход занят</AASBExt.Factory.Full>
+  <AASBExt.Factory.Moving>Вертикальный порт: перемещение груза</AASBExt.Factory.Moving>
+  <AASBExt.Factory.Linked>Вертикальный порт: соединён</AASBExt.Factory.Linked>
+  <AASBExt.Factory.ShowPartner>Показать парный вертикальный порт</AASBExt.Factory.ShowPartner>
+  <AASBExt.Factory.Disabled>Экспериментальные вертикальные порты недоступны или отключены</AASBExt.Factory.Disabled>
+  <AASBExt.Factory.Destination>Этаж {0}, клетка ({1}, {2})</AASBExt.Factory.Destination>
+  <AASBExt.Factory.Section>Секция шахты</AASBExt.Factory.Section>
+  <AASBExt.Factory.Inputs>Настроенных входов: {0}</AASBExt.Factory.Inputs>
+  <AASBExt.Factory.WaitDestination>Ожидание назначения</AASBExt.Factory.WaitDestination>
+  <AASBExt.Factory.RouteBroken>Путь по шахте прерван</AASBExt.Factory.RouteBroken>
+  <AASBExt.Factory.Progress>Идёт передача, осталось тиков: {0}</AASBExt.Factory.Progress>
+  <AASBExt.Factory.Cargo>Груз: {0}</AASBExt.Factory.Cargo>
+  <AASBExt.Factory.Configure>Настроить назначение</AASBExt.Factory.Configure>
+  <AASBExt.Factory.ClearDestination>Снять назначение</AASBExt.Factory.ClearDestination>
+  <AASBExt.Factory.Occupied>В этой клетке шахты уже есть конвейерное устройство</AASBExt.Factory.Occupied>
+  <AASBExt.Factory.BuildLinked>Построить связанный порт</AASBExt.Factory.BuildLinked>
+  <AASBExt.Factory.NoOtherFloor>На этих координатах нет другого доступного этажа</AASBExt.Factory.NoOtherFloor>
+  <AASBExt.Factory.BuildUnavailable>Недоступно исследование или строительство порта</AASBExt.Factory.BuildUnavailable>
+  <AASBExt.Factory.UseHighlightedCell>Разместите на подсвеченной клетке шахты</AASBExt.Factory.UseHighlightedCell>
+  <AASBExt.Factory.Mode>Режим маршрутизации: {0}</AASBExt.Factory.Mode>
+  <AASBExt.Factory.Mode.Fixed>Фиксированное назначение</AASBExt.Factory.Mode.Fixed>
+  <AASBExt.Factory.Mode.Priority>По приоритету</AASBExt.Factory.Mode.Priority>
+  <AASBExt.Factory.Mode.RoundRobin>По кругу</AASBExt.Factory.Mode.RoundRobin>
+  <AASBExt.Factory.Mode.FirstAvailable>Первый доступный</AASBExt.Factory.Mode.FirstAvailable>
+  <AASBExt.Factory.AddRoute>Назначить: {0}</AASBExt.Factory.AddRoute>
+  <AASBExt.Factory.EditRoute>{0}. {1}</AASBExt.Factory.EditRoute>
+  <AASBExt.Factory.MissingOutput>Выход №{0} отсутствует</AASBExt.Factory.MissingOutput>
+  <AASBExt.Factory.RemoveRoute>Удалить назначение</AASBExt.Factory.RemoveRoute>
+  <AASBExt.Factory.Filter>Настроить фильтр предметов</AASBExt.Factory.Filter>
+  <AASBExt.Factory.ClearFilter>Сбросить фильтр предметов</AASBExt.Factory.ClearFilter>
+  <AASBExt.Factory.RaisePriority>Поднять в порядке маршрутизации</AASBExt.Factory.RaisePriority>
+  <AASBExt.Factory.OutputGone>Назначенный выход отсутствует.</AASBExt.Factory.OutputGone>
+  <AASBExt.Factory.FilterRejected>Фильтр назначения отклоняет груз.</AASBExt.Factory.FilterRejected>
+  <AASBExt.Status.Missing>{0}: опциональный мод отсутствует.</AASBExt.Status.Missing>
+  <AASBExt.Status.Adapter>{0}: экспериментальный адаптер активен.</AASBExt.Status.Adapter>
+  <AASBExt.Status.Contract>{0}: несовместимый технический контракт.</AASBExt.Status.Contract>
+  <AASBExt.Status.DeckMissing>Стеклянный настил: отсутствует поддерживаемый Def стекла или его рецепта.</AASBExt.Status.DeckMissing>
+  <AASBExt.Status.DeckAvailable>Стеклянный настил: строительный Def доступен.</AASBExt.Status.DeckAvailable>
+  <AASBExt.Factory.RouteUnsupported>У одной из секций шахты нет опоры.</AASBExt.Factory.RouteUnsupported>
+  <AASBExt.Factory.UnusedOutput>Нет подключённых вертикальных входов.</AASBExt.Factory.UnusedOutput>
+</LanguageData>

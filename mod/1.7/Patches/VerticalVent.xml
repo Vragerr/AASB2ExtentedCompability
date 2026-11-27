@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs[TerrainDef[defName="AB_RoofSurface"] and ResearchProjectDef[defName="AB2_Stairs"] and ResearchProjectDef[defName="ComplexFurniture"]]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <ThingDef ParentName="BuildingBase">
+          <defName>AASBExt_VerticalVent</defName>
+          <label>vertical ventilation grate</label>
+          <description>An adjustable grate that lets heat exchange between enclosed rooms on adjacent above-ground floors. The roof remains solid for movement and shooting.</description>
+          <thingClass>AASB2ExtendedCompatibility.Building_VerticalVent</thingClass>
+          <graphicData>
+            <texPath>AASBExt/VerticalVent</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Cutout</shaderType>
+          </graphicData>
+          <altitudeLayer>FloorEmplacement</altitudeLayer>
+          <rotatable>false</rotatable>
+          <passability>PassThroughOnly</passability>
+          <fillPercent>0.05</fillPercent>
+          <tickerType>Never</tickerType>
+          <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+          <statBases><WorkToBuild>400</WorkToBuild><MaxHitPoints>100</MaxHitPoints><Flammability>0</Flammability></statBases>
+          <costList><Steel>80</Steel></costList>
+          <researchPrerequisites><li>ComplexFurniture</li><li>AB2_Stairs</li></researchPrerequisites>
+          <designationCategory>Temperature</designationCategory>
+          <placeWorkers><li>AASB2ExtendedCompatibility.PlaceWorker_VerticalVent</li></placeWorkers>
+          <comps>
+            <li Class="CompProperties_Flickable">
+              <commandTexture>UI/Commands/Vent</commandTexture>
+              <commandLabelKey>CommandDesignateOpenCloseVentLabel</commandLabelKey>
+              <commandDescKey>CommandDesignateOpenCloseVentDesc</commandDescKey>
+            </li>
+          </comps>
+        </ThingDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>
