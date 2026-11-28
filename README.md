@@ -13,9 +13,11 @@ Mod created by using ai.
 
 ## Gameplay status
 
-- **Owner-tested in game.** Cold and hot water, Dubs heating and Rimefeller risers on an existing colony and a test save. Campfire flames, blood, filth, pollution, items and colored light have been seen through glass. Ordinary colonists and cargo drones have been observed hauling through Skipdoors.
-- **Awaiting in-game verification.** Winter ground and snow, furniture overlaps and visible pipes through glass or OpenAir. Mixed stair and Skipdoor routes, including a save during the stair approach. Direct inter-floor Skipdoors with Giddy-up mounts.
-- **Known limits.** Mounted stair travel uses the original mods. Mixed stair and Skipdoor routes are currently for unmounted pawns. The glass projection does not copy the map-wide Fleck batch used for some smoke and sparks. UI overlays remain on the active floor.
+- **Owner-tested in game.** Cold and hot water, sewage, Dubs Central Heating and Rimefeller vertical networks have been tested on an existing colony and a dedicated test save. Vertical ventilation and Factory conveyor transfers have been observed working. Glass projection supports terrain, plants, buildings, stored items, pawns, animals, campfire flames, blood, filth, pollution and colored lighting. Ordinary colonists and cargo drones have been observed hauling through Skipdoors. Mixed stair and Skipdoor navigation and direct inter-floor Skipdoor travel with Giddy-up mounts have also been reported working.
+- - **Latest stabilization pass.** Furniture rendering, visible utility pipes through glass and OpenAir, and the settings interface received additional fixes in v0.22.0. No further issues with these features were reported during the latest owner test, although broader compatibility testing is still needed.
+- **Awaiting further verification.**  Saving and loading during active mixed navigation routes, additional mod configurations, and large-colony performance under sustained workloads.
+- **Known issues.** Winter terrain viewed through glass may appear incorrectly white or gray even when the underlying terrain is snow-free.
+- **Known limits.** Mounted stair travel follows the original mods' rules. Mixed stair and Skipdoor routes are currently supported for unmounted pawns. Some map-wide Fleck effects, including certain smoke and spark effects, are not projected through glass. UI overlays remain on the active floor.
 - **Experimental.** The Endless Horizon adaptation is frozen and stays off by default.
 
 ## Dependencies and installation
