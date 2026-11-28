@@ -3,6 +3,9 @@
 Build and manage a multi-floor colony in RimWorld with compatibility fixes and vertical building options for **As Above, So Below 2**.
 # DISCLAIMER 
 Mod created by using ai.
+# Download
+https://steamcommunity.com/sharedfiles/filedetails/?id=3847365218
+or see release section.
 ## What the mod adds
 - **Glass floors and skylights.** See the terrain, pawns, objects and colored light on the floor below. A separate gameplay lighting option lets daylight reach plants through glass. Dubs Skylights is supported when installed. With Adaptive Storage Framework, storage displays use the container’s original item placement.
 - **Vertical ventilation.** An openable grate exchanges heat between rooms on neighboring above-ground floors without using power.
